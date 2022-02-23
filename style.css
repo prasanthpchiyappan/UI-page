@@ -1,0 +1,90 @@
+div.polaroid {
+    width: 150px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    text-align: center;
+    float: right;
+    margin: 10px;
+    border-radius: 10px;
+    height: 200px;
+    padding: 15px;
+  
+  }
+  div.polaroid p{
+     font-weight: bold; 
+     
+  }
+  img{
+      border-radius: 50%;
+  }
+  div.container {
+    padding: 10px;
+
+  }
+  div.container a{
+      
+      text-decoration: none;
+      color:black;
+  }
+  body {
+    font-family: "Lato", sans-serif;
+  }
+  .sidebar{
+    text-align: right;
+    padding: 20px;
+  }
+  
+  .sidenav {
+    height: 100%;
+    width: 200px;
+    position: absolute;
+
+    top: 100px;
+    left: 0;
+
+    line-height: 50px;
+  }
+  
+  .sidenav a {
+    padding: 6px 6px 6px 32px;
+    text-decoration: none;
+    font-size: 20px;
+    color: #818181;
+    display: block;
+  }
+  .cartButton button{
+      background-color: #ec3d63;
+      color: #fff;
+     padding: 16px 32px;
+     border-style: none;
+     margin: 30px;
+     border-radius: 25px;
+  }
+  #showcase{
+      min-width: 400px;
+      font-size: 250%;
+  }
+  .showcaseText {
+      text-align: justify;
+      margin-left: 25%;
+  
+  }
+  aside#sidebar {
+    width: 20%;
+    color: #818181;
+    margin-top: 10px;
+    float: right;
+    
+  }
+  
+  aside{
+      float: left;
+      width: 65%;
+  }
+  
+  .sidenav a:hover {
+    color: #f1f1f1;
+  }
+  
+  .main {
+    margin-left: 200px; /* Same as the width of the sidenav */
+  }
